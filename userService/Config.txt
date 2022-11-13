@@ -1,0 +1,30 @@
+=============== About RabbitMQ ===============
+
+01) RabbitMQ is a messaging broker - an intermediary for messaging. It gives your applications a common platform to send and receive messages, and   	your messages a safe place to live until received.
+
+02) RabbitMQ is a widely used open-source message broker that helps in scaling the application by deploying a message queuing mechanism in between the two applications. It offers temporary storage for data preventing data loss. RabbitMQ Queue takes messages from the publisher and sends them to the consumer. 
+
+03) Top 10 Alternatives to RabbitMQ
+      MuleSoft Anypoint Platform.
+      IBM MQ.
+      Apache Kafka.
+      Google Cloud Pub/Sub.
+      Amazon MQ.
+      Apache ActiveMQ.
+      KubeMQ.
+      ZeroMQ.
+      
+04) workflow --> PFA.
+
+=============== Config RabbitMQ ===============
+
+01) sudo apt-get update
+02) sudo apt-get install erlang
+03) sudo apt-get install rabbitmq-server
+04) sudo systemctl enable rabbitmq-server
+05) sudo systemctl start rabbitmq-server
+06) sudo systemctl status rabbitmq-server
+06) sudo rabbitmq-plugins enable rabbitmq_management
+07) Redirect to `http://localhost:15672`
+	username: guest
+	password: guest
